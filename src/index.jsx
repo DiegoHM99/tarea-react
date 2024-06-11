@@ -2,12 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Hola from './Comp1';
 import reportWebVitals from './reportWebVitals';
+import Tarea from './Tarea';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Tarea></Tarea>
+   
+    
+    
   </React.StrictMode>
 );
 
